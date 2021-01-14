@@ -88,3 +88,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+.DS_Store
+OSRSUI/GraphQL/apollo/
+OSRSUI/GraphQL/apollo.tar.gz
+OSRSUI/GraphQL/operationIDs.json

@@ -1,0 +1,5 @@
+query GetItems {
+	items {
+		name, members
+	}
+}

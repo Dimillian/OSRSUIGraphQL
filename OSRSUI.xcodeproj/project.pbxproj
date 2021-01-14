@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696BC15E25B05CBC0075F57C /* OSRSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BC15D25B05CBC0075F57C /* OSRSUIApp.swift */; };
+		696BC16025B05CBC0075F57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BC15F25B05CBC0075F57C /* ContentView.swift */; };
+		696BC16225B05CBF0075F57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696BC16125B05CBF0075F57C /* Assets.xcassets */; };
+		696BC16525B05CBF0075F57C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696BC16425B05CBF0075F57C /* Preview Assets.xcassets */; };
+		696BC17225B05E7A0075F57C /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 696BC17125B05E7A0075F57C /* Apollo */; };
+		696BC17625B0609C0075F57C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 696BC17525B0609C0075F57C /* Kingfisher */; };
+		696BC17D25B063C20075F57C /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 696BC17C25B063C20075F57C /* Queries.graphql */; };
+		696BC18025B063EE0075F57C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BC17F25B063EE0075F57C /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		696BC15A25B05CBC0075F57C /* OSRSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSRSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696BC15D25B05CBC0075F57C /* OSRSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSRSUIApp.swift; sourceTree = "<group>"; };
+		696BC15F25B05CBC0075F57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		696BC16125B05CBF0075F57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696BC16425B05CBF0075F57C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		696BC16625B05CBF0075F57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696BC16E25B05CFD0075F57C /* ApolloCodegen */ = {isa = PBXFileReference; lastKnownFileType = text; name = ApolloCodegen; path = Packages/ApolloCodegen; sourceTree = SOURCE_ROOT; };
+		696BC17C25B063C20075F57C /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		696BC17F25B063EE0075F57C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696BC15725B05CBC0075F57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BC17625B0609C0075F57C /* Kingfisher in Frameworks */,
+				696BC17225B05E7A0075F57C /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696BC15125B05CBC0075F57C = {
+			isa = PBXGroup;
+			children = (
+				696BC15C25B05CBC0075F57C /* OSRSUI */,
+				696BC15B25B05CBC0075F57C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696BC15B25B05CBC0075F57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696BC15A25B05CBC0075F57C /* OSRSUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696BC15C25B05CBC0075F57C /* OSRSUI */ = {
+			isa = PBXGroup;
+			children = (
+				696BC16E25B05CFD0075F57C /* ApolloCodegen */,
+				696BC15D25B05CBC0075F57C /* OSRSUIApp.swift */,
+				696BC15F25B05CBC0075F57C /* ContentView.swift */,
+				696BC16125B05CBF0075F57C /* Assets.xcassets */,
+				696BC16625B05CBF0075F57C /* Info.plist */,
+				696BC17825B060A30075F57C /* GraphQL */,
+				696BC16325B05CBF0075F57C /* Preview Content */,
+			);
+			path = OSRSUI;
+			sourceTree = "<group>";
+		};
+		696BC16325B05CBF0075F57C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				696BC16425B05CBF0075F57C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		696BC17825B060A30075F57C /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				696BC17F25B063EE0075F57C /* API.swift */,
+				696BC17C25B063C20075F57C /* Queries.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696BC15925B05CBC0075F57C /* OSRSUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696BC16925B05CBF0075F57C /* Build configuration list for PBXNativeTarget "OSRSUI" */;
+			buildPhases = (
+				696BC15625B05CBC0075F57C /* Sources */,
+				696BC15725B05CBC0075F57C /* Frameworks */,
+				696BC15825B05CBC0075F57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSRSUI;
+			packageProductDependencies = (
+				696BC17125B05E7A0075F57C /* Apollo */,
+				696BC17525B0609C0075F57C /* Kingfisher */,
+			);
+			productName = OSRSUI;
+			productReference = 696BC15A25B05CBC0075F57C /* OSRSUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696BC15225B05CBC0075F57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					696BC15925B05CBC0075F57C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 696BC15525B05CBC0075F57C /* Build configuration list for PBXProject "OSRSUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696BC15125B05CBC0075F57C;
+			packageReferences = (
+				696BC17025B05E7A0075F57C /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				696BC17425B0609C0075F57C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 696BC15B25B05CBC0075F57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696BC15925B05CBC0075F57C /* OSRSUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696BC15825B05CBC0075F57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BC17D25B063C20075F57C /* Queries.graphql in Resources */,
+				696BC16525B05CBF0075F57C /* Preview Assets.xcassets in Resources */,
+				696BC16225B05CBF0075F57C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696BC15625B05CBC0075F57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BC16025B05CBC0075F57C /* ContentView.swift in Sources */,
+				696BC18025B063EE0075F57C /* API.swift in Sources */,
+				696BC15E25B05CBC0075F57C /* OSRSUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		696BC16725B05CBF0075F57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		696BC16825B05CBF0075F57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696BC16A25B05CBF0075F57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OSRSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OSRSUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.OSRSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		696BC16B25B05CBF0075F57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OSRSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OSRSUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.OSRSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696BC15525B05CBC0075F57C /* Build configuration list for PBXProject "OSRSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BC16725B05CBF0075F57C /* Debug */,
+				696BC16825B05CBF0075F57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696BC16925B05CBF0075F57C /* Build configuration list for PBXNativeTarget "OSRSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BC16A25B05CBF0075F57C /* Debug */,
+				696BC16B25B05CBF0075F57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		696BC17025B05E7A0075F57C /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.40.0;
+			};
+		};
+		696BC17425B0609C0075F57C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		696BC17125B05E7A0075F57C /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 696BC17025B05E7A0075F57C /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		696BC17525B0609C0075F57C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 696BC17425B0609C0075F57C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 696BC15225B05CBC0075F57C /* Project object */;
+}
